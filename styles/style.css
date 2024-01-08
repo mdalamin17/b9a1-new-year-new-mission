@@ -55,13 +55,11 @@
   width: 1320px;
   height: 600px;
   display: flex;
-  
 }
 .midnight-party-section-c1 {
   text-align: left;
   justify-content: center;
-  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
 }
 .mn-p-s-img {
   width: 141.641px;
@@ -74,7 +72,7 @@
   font-size: 64px;
   font-weight: 900px;
   width: 642px;
-  margin-top:120px ;
+  margin-top: 120px;
   margin-left: 100px;
 }
 .mn-party-section-p {
@@ -82,18 +80,80 @@
   font-family: Inter;
   font-size: 18px;
   font-weight: 400px;
- margin-top: 10px;
- margin-left: 100px;
+  margin-top: 10px;
+  margin-left: 100px;
 }
-.btn{
-  background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-  color: #FFFFFF;
-text-align: center;
-font-family: Inter;
+.btn {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  color: #ffffff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+.info {
+  text-align: center;
+  font-family: Inter;
+}
+.info span,
+input {
+  color: #f00;
+  text-align: center;
+  font-size: 18px;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.info p {
+  color: #070211;
+  font-size: 20px;
+  font-weight: 900px bold;
+  text-transform: capitalize;
+}
+.info input {
+  margin-top: 10px;
+  background-color: #f00000;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+.comming-soon-section {
+  display: flex;
+  justify-content: space-around;
+  font-family: Inter;
+  margin-bottom: 20px;
+}
+.comming-soon-s1, .p {
+  color: #f00;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 80px;
+}
+.comming-soon-s1,
+.h {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900px;
+  text-transform: capitalize;
+}
+.comming-soon-s1, .p1{
+  color: rgba(7, 2, 17, 0.60);
 font-size: 20px;
-font-weight: 700px;
-text-transform: uppercase;
-margin-top: 20px;
-margin-left: 120px;
-text-decoration: none;
+font-weight: 400px;
+}
+.comming-soon-s1{
+  display: inline;
+}
+.comming-soon-s2{
+  border-radius: 50%;
+border: 15px solid #F00;
+width: 463px;
+height: 463px;
+border-radius: 364.844px;
+background: #FFF;
+}
+.comming-soon-s3{
+  display: inline;
+  justify-content: space-between;
 }
