@@ -2,54 +2,49 @@
   margin: 0px;
   padding: 0px;
 }
-.banner-section {
-  background-image: url("../resources/Banner\ Image.png");
+.banner-img {
+  border-radius: 16px;
+background: url('../resources/Banner\ Image.png'), lightgray 0px -150.131px / 100% 164.194% no-repeat;
   width: 1320px;
   height: 600px;
-  border-radius: 16px;
-  background-color: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+ 
+  padding: 50px auto;
   margin: 50px auto;
+}
+.banner-description {
+  font-family: Merriweather;
   color: #ffffff;
-  border: 16px;
-  font-family: "Merriweather";
-}
-.banner-heading {
-  font-size: 32px;
-  font-weight: 400px;
-}
-.banner-title {
-  font-size: 72px;
-  font-weight: 900px;
-}
-.banner-inside-p,
-.banner-inside-h {
-  justify-content: center;
   text-align: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
 }
-.banner-inside-p {
+.happy-new-year {
+  font-size: 32px;
   padding-top: 177px;
 }
-.banner-inside-h {
-  padding-top: 20px;
-}
-.off-sectin-main {
-  font-family: Inter;
+.new-year-celebration {
+  font-size: 72px;
+  padding-top: 15px;
 }
 .off-section {
-  color: #f00000;
+  font-family: Inter;
   text-align: center;
+}
+.off {
+  color: #f00000;
   font-size: 88px;
-  font-weight: 700px;
 }
-.off-section-p {
+.holiday-deal {
   color: #f00000;
-  text-align: center;
   font-size: 24px;
-  font-weight: 500px;
 }
-.off-section-h {
+.catagories {
   color: #070211;
-  text-align: center;
   font-size: 48px;
-  font-weight: 700px;
+}
+.off-section img {
+  width: 802.9px;
+  height: 500px;
 }
