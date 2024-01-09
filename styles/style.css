@@ -167,6 +167,12 @@ input {
   display: inline;
   justify-content: space-between;
 }
+.comming-soon-s3 h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700px;
+}
 .img44 {
   position: absolute;
   top: 50%;
@@ -273,11 +279,42 @@ input {
 .last-div {
   text-align: center;
 }
-.last-div input {
+.last-div label {
   margin-top: 10px;
   background: #f00;
   color: #ffffff;
   padding: 10px 35px;
   border: 1px solid #f00;
   border-radius: 0 27px 27px 0;
+}
+.last-div p {
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.last-div h2 {
+  margin-bottom: 10px;
+}
+.footer {
+  margin-top: 30px;
+  background: #070211;
+  width: 1500px;
+  height: 250px;
+  color: #ffffff;
+  text-align: center;
+  margin-left: 20px;
+}
+.f-address-contact {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+}
+.footer-last {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+}
+.social-site {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
